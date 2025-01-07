@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ AtomationSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" AtomationTest(failed)">
+    <classes>
+      <class name="testNgpackage.tng_002">
+        <methods>
+          <include name="amazonAction"/>
+          <include name="packUp"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- testNgpackage.tng_002 -->
+    </classes>
+  </test> <!--  AtomationTest(failed) -->
+</suite> <!-- Failed suite [ AtomationSuite] -->
